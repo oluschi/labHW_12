@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet');
+
+body {
+  position:relative;
+  margin:0px;
+  background: url("sea.jpg");
+}
+
+#text{
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+  color:#367de8;
+  font-size:2rem;
+  padding:20px;
+}
+
+#text b{
+	color: #bcd1ef;
+	text-decoration: underline;
+}
+
+#canvas{
+  position: fixed;
+  top:0px;
+  left:0px;
+  width:100vw;
+  height:100vh;
+}
+
+.emoji {
+  font-size:80px;
+  position:absolute;
+}
